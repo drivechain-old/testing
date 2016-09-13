@@ -21,7 +21,7 @@ make
 - Data directory
 
 You will need to create a new data directory to store files for the mainchain
-(bitcoin). In this example a new directory 'drivechainMain' will be created in 
+(bitcoin). In this example a new directory 'drivechainMain' will be created in
 your home directory.
 ```
 mkdir ~/drivechainMain
@@ -208,12 +208,13 @@ to increment the workscore of the WT^ up to minworkscore. If everything
 worked out correctly you will see your `sidechain` withdraw deposited into
 the `mainchain` bitcoin address that you specified.
 
-Generated enough blocks on the `mainchain` to get your block height 
-over 400, and you should see that the 3 BTC minus a fee has been 
+Generate enough blocks on the `mainchain` to get your block height
+over 400, and you should see that the 3 BTC minus a fee has been
 deposited back into your mainchain address.
 
 ![](SidechainWithdrawWorked.png)
 
+If you received the 3 (~2.9) BTC withdraw from the mainchain, thats it, it worked.
 
 Testing (automated) TODO
 ------------------------
